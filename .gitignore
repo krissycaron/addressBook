@@ -1,5 +1,6 @@
 lib/bower_components
 lib/node_modules
 .DS_Store
+javascripts/AppConstants.js
 
 
