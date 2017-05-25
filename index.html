@@ -5,14 +5,37 @@
 	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="/styles/main.css">
 </head>
-<body>
+<body ng-app="AddressBook">
 <h1>AddressBook</h1>
 
 
-	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
 
-	<script type="text/javascript" src="./javascripts/main.js"></script>
+<!-- 3rd party scripts -->
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="./lib/bower_components/angular-route/angular-route.min.js"></script>
+
+<!-- my app scripts -->
+<script type="text/javascript" src="./javascripts/app.js"></script>
+<script type="text/javascript" src="./javascripts/AppConfig.js"></script>
+<script type="text/javascript" src="./javascripts/AppConstants.js"></script>
+
+<!-- my factories scripts  /// THESE WILL CHANGE FOR ADDRESS BOOK!! -->
+<script type="text/javascript" src="./javascripts/factories/AuthFactory.js"></script>
+<script type="text/javascript" src="./javascripts/factories/AddressFactory.js"></script>
+<script type="text/javascript" src="./javascripts/factories/UserFactory.js"></script>
+
+
+<!-- my controllers scripts /// THESE WILL CHANGE FOR ADDRESS BOOK!! -->
+<script type="text/javascript" src="./javascripts/controllers/AuthCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/AddressEditCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/AddressListCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/AddressNewCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/AddressViewCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/NavCtrl.js"></script>
+
+
 </body>
 </html>

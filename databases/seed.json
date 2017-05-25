@@ -1,0 +1,43 @@
+{
+    "address": {
+        "address0": {
+            "firstName": "Krissy",
+            "lastName": "Caron",
+            "address": "219 Ridgeway Dr",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "zip": "37214",
+            "phoneNum": "207-251-1570"
+
+        },
+        "address1": {
+            "firstName": "Carolyn",
+            "lastName": "Caron-Stratos",
+            "address": "470 Perry Oliver Rd",
+            "city": "Wells",
+            "state": "Maine",
+            "zip": "04090",
+            "phoneNum": "207-251-0891"
+        },
+        "address2": {
+            "firstName": "Bri",
+            "lastName": "Springer",
+            "address": "67 Devin Ln",
+            "city": "Wells",
+            "state": "Maine",
+            "zip": "04090",
+            "phoneNum": "207-251-0000"
+        }
+   
+    },
+    "users": {
+        "user0": {
+            "uid": "7YKuILU4C5PPSuG34vrsK8gLhm12",
+            "username": "Krissy"
+        },
+        "user1": {
+            "uid": "gsZ7uALQtwTdvGaUAaZVP7uZdsz2",
+            "username": "London"
+        }
+    }
+}
