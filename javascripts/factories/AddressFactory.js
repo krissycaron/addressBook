@@ -4,13 +4,16 @@ app.factory("AddressFactory", function($q, $http, FIREBASE_CONFIG){
       let address = [];
       return $q((resolve, reject) => {
         // $.ajax().done().fail ... this is what we were using. nad becasue there is another lib you need to put in the argument. 
-        $http.get(`${FIREBASE_CONFIG.databaseURL}/items.json?orderBy="uid"&equalTo="${userId}"`)
+        $http.get(`${FIREBASE_CONFIG.databaseURL}/address.json?orderBy="uid"&equalTo="${userId}"`)
         .then((fbItems)=> {
+          console.log("am i getting to the then?", fbItems);
             var addressCollection = fbItems.data;
+            console.log("fbItems", addressCollection);
             if (addressCollection !== null){
               Object.keys(addressCollection).forEach((key) => {
                 addressCollection[key].id=key;
                 address.push(addressCollection[key]);
+                console.log("addressCollection", addressCollection);
               });
             }
             resolve(address);

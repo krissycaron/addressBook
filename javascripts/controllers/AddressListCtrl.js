@@ -1,11 +1,11 @@
 app.controller("AddressListCtrl", function($rootScope, $scope, AddressFactory){
 console.log("Address List controller Connected");
-  $scope.Address = [];
+  $scope.contacts = [];
       
     let getAddress = () =>{
-      AddressFactory.getAddressList($rootScope.user.uid).then((addressz)=>{
-        console.log("Addressz", addressz);
-        $scope.Address = addressz;
+      AddressFactory.getAddressList($rootScope.user.uid).then((contacts)=>{
+        console.log("contacts", contacts);
+        $scope.contacts = contacts;
         }).catch((error)=>{
         console.log("got an error in getAddress", error);
         });
