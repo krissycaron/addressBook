@@ -1,6 +1,7 @@
 app.factory("AddressFactory", function($q, $http, FIREBASE_CONFIG){
   console.log("AddressFactory attached");
-	  let getAddressList = (userId) => { 
+	 
+    let getAddressList = (userId) => { 
       let address = [];
       return $q((resolve, reject) => {
         // $.ajax().done().fail ... this is what we were using. nad becasue there is another lib you need to put in the argument. 

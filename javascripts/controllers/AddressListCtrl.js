@@ -4,10 +4,10 @@ console.log("Address List controller Connected");
       
     let getAddress = () =>{
       AddressFactory.getAddressList($rootScope.user.uid).then((contacts)=>{
-        console.log("contacts", contacts);
+        // console.log("contacts", contacts);
         $scope.contacts = contacts;
         }).catch((error)=>{
-        console.log("got an error in getAddress", error);
+        // console.log("got an error in getAddress", error);
         });
       };
 
