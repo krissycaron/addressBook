@@ -3,10 +3,20 @@
 <head>
 	<title>Address Book</title>
 	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
+
 <body ng-app="AddressBook">
-<h1>AddressBook</h1>
+	<h1>AddressBook</h1>
+	<!-- Keeps NavBar Consistent throughout the pages --> 
+	<div ng-include="'./partials/navbar.html'"></div>
+
+	<div class="container" ng-view>
+		
+	</div>
+
+
+
 
 
 
@@ -22,13 +32,13 @@
 <script type="text/javascript" src="./javascripts/AppConfig.js"></script>
 <script type="text/javascript" src="./javascripts/AppConstants.js"></script>
 
-<!-- my factories scripts  /// THESE WILL CHANGE FOR ADDRESS BOOK!! -->
+<!-- my factories scripts -->
 <script type="text/javascript" src="./javascripts/factories/AuthFactory.js"></script>
 <script type="text/javascript" src="./javascripts/factories/AddressFactory.js"></script>
 <script type="text/javascript" src="./javascripts/factories/UserFactory.js"></script>
 
 
-<!-- my controllers scripts /// THESE WILL CHANGE FOR ADDRESS BOOK!! -->
+<!-- my controllers scripts -->
 <script type="text/javascript" src="./javascripts/controllers/AuthCtrl.js"></script>
 <script type="text/javascript" src="./javascripts/controllers/AddressEditCtrl.js"></script>
 <script type="text/javascript" src="./javascripts/controllers/AddressListCtrl.js"></script>

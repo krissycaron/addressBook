@@ -1,3 +1,3 @@
-console.log("app loaded first");
+// console.log("app loaded first");
 var app = angular.module("AddressBook", ["ngRoute"]);
 

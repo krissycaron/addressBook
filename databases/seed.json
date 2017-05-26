@@ -7,7 +7,8 @@
             "city": "Nashville",
             "state": "Tennessee",
             "zip": "37214",
-            "phoneNum": "207-251-1570"
+            "phoneNum": "207-251-1570",
+            "uid": "mTZwulbRjngahWr3nIOujneABcw1"
 
         },
         "address1": {
@@ -17,7 +18,8 @@
             "city": "Wells",
             "state": "Maine",
             "zip": "04090",
-            "phoneNum": "207-251-0891"
+            "phoneNum": "207-251-0891",
+            "uid": "mTZwulbRjngahWr3nIOujneABcw1"
         },
         "address2": {
             "firstName": "Bri",
@@ -26,18 +28,19 @@
             "city": "Wells",
             "state": "Maine",
             "zip": "04090",
-            "phoneNum": "207-251-0000"
+            "phoneNum": "207-251-0000",
+            "uid": "mTZwulbRjngahWr3nIOujneABcw1"
         }
    
     },
     "users": {
         "user0": {
-            "uid": "7YKuILU4C5PPSuG34vrsK8gLhm12",
-            "username": "Krissy"
+            "uid": "mTZwulbRjngahWr3nIOujneABcw1",
+            "username": "Krisee"
         },
         "user1": {
-            "uid": "gsZ7uALQtwTdvGaUAaZVP7uZdsz2",
-            "username": "London"
+            "uid": "semINqNmhDN5oFbROso4m0g6K2x2",
+            "username": "la"
         }
     }
 }
