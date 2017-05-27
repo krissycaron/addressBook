@@ -1,9 +1,14 @@
-<h1>Address List Partial</h1>
+<h1>Address List</h1>
 	<h3>Contact Card</h3>
 	<div ng-repeat="address in contacts | filter: searchText"> 
 	    <div class="panel panel-default">
 	        <div class="panel-body">
-	            <div class="col-xs-7"><a>{{address.firstName}} {{address.lastName}}</a></div>
+	            <div class="col-xs-7"><a ng-href="#!/item/view/{{item.id}}">{{address.firstName}} {{address.lastName}}</a></div>
+	    </div>
+	    <div class="panel-body">
+	    	<p>Address: {{address.address}}</p>
+	    	<p>Cite, State Zip: {{address.city}}, {{address.state}} {{address.zip}}</p>
+	    	<p>Phone: {{address.phoneNum}}</p>
 	    </div>
 	</div>
 	</div>
